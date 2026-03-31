@@ -1,14 +1,50 @@
 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container central */
+.container {
   text-align: center;
-  font-family: Arial;
-  background-color: #f0f0f0;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-h1 {
-  color: blue;
-}
-
+/* Botão estiloso */
 button {
-  padding: 10px;
+  background: #22c55e;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
+button:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
+
+/* Imagem ajustada */
+.imagem {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+  transition: 0.3s;
+}
+
+.imagem:hover {
+  transform: scale(1.08);
+}
